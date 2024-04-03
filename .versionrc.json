@@ -1,0 +1,52 @@
+{
+    "types": [
+        {
+            "type": "feat",
+            "section": "✨ 新功能"
+        },
+        {
+            "type": "fix",
+            "section": "🐛 问题修复"
+        },
+        {
+            "type": "init",
+            "section": "🎉 初始化"
+        },
+        {
+            "type": "docs",
+            "section": "📝 文档"
+        },
+        {
+            "type": "style",
+            "section": "🎨 风格"
+        },
+        {
+            "type": "refactor",
+            "section": "♻️ 代码重构"
+        },
+        {
+            "type": "perf",
+            "section": "⚡ 性能优化"
+        },
+        {
+            "type": "test",
+            "section": "✅ 测试"
+        },
+        {
+            "type": "revert",
+            "section": "⏪ 版本回退"
+        },
+        {
+            "type": "build",
+            "section": "📦‍ 构建"
+        },
+        {
+            "type": "chore",
+            "section": "🚀 项目依赖"
+        },
+        {
+            "type": "ci",
+            "section": "👷 CI"
+        }
+    ]
+}
