@@ -4,7 +4,7 @@
   </p>
   
   <p align="center">
-    <img alt="Static Badge" src="https://img.shields.io/badge/python--collection-v1.0.1-black?labelColor=black&color=fec934">
+    <img alt="Static Badge" src="https://img.shields.io/badge/python--collection-v1.1.0-black?labelColor=black&color=fec934">
     <img alt="Static Badge" src="https://img.shields.io/badge/Author-Wang_jinlong-black?labelColor=black&color=fec934">
     <img alt="Static Badge" src="https://img.shields.io/badge/Build-2024.04.03-black?labelColor=black&color=fec934">
     <img alt="Static Badge" src="https://img.shields.io/badge/Licence-MIT-black?labelColor=black&color=fec934">
