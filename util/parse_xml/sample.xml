@@ -1,0 +1,32 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Job One -->
+    <bean id="jobOneBean" class="com.test.quartz.service.jobOne"></bean>
+
+    <bean id="jobOneDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="jobOneBean"/>
+        <property name="targetMethod" value="jobOneMethod"/>
+    </bean>
+
+    <bean id="jobOneTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="jobOneDetail"/>
+        <property name="cronExpression" value="0 0/1 * * * ?"/>
+    </bean>
+    
+    <!-- Job Two -->
+    <bean id="jobTwoBean" class="com.test.quartz.service.jobTwo"></bean>
+    
+    <bean id="jobTwoDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="jobTwoBean"/>
+        <property name="targetMethod" value="jobTwoMethod"/>
+    </bean>
+
+    <bean id="jobTwoTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="jobTwoDetail"/>
+        <property name="cronExpression" value="0 0 12 * * ?"/>
+    </bean>
+
+</beans>
