@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/EmirioBomb/python-collections/compare/python-collections-v1.1.0...python-collections-v1.1.1) (2024-06-21)
+
+
+### 📝 文档
+
+* **Logo:** :sparkles: 修改图标 ([bb16633](https://github.com/EmirioBomb/python-collections/commit/bb166331ff3ec6bf7f18b3622ef68e13231fa110))
+* **README:** :memo: 更新版本号及变更日志内容 ([428a7a8](https://github.com/EmirioBomb/python-collections/commit/428a7a821ac4533348116e3a41ee83d8079cff5d))
+
 ## [1.1.0](https://github.com/EmirioBomb/python-collections/compare/python-collections-v1.0.1...python-collections-v1.1.0) (2024-04-18)
 
 
