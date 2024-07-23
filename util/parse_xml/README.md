@@ -26,4 +26,4 @@
 ```
 
 #### 运行结果
-![parse_quartz_config_basic](/image/img/parse_quartz_config.png)
+![parse_quartz_config_basic](./image/parse_quartz_config.png)
