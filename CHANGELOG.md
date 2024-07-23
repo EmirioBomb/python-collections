@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/EmirioBomb/python-collections/compare/python-collections-v1.1.2...python-collections-v1.2.0) (2024-07-23)
+
+
+### ✨ 新功能
+
+* **OTHER:** :sparkles: 数据盘点处理脚本 ([b7a41e9](https://github.com/EmirioBomb/python-collections/commit/b7a41e9ab9cdcb2b4d6f696210a8926f83702bc2))
+
+
+### 📝 文档
+
+* **README:** :memo: 更新版本号及变更日志内容 ([dc25db1](https://github.com/EmirioBomb/python-collections/commit/dc25db153cb98418464de4b1e02bd2d81cd5129b))
+
 ### [1.1.2](https://github.com/EmirioBomb/python-collections/compare/python-collections-v1.1.1...python-collections-v1.1.2) (2024-07-23)
 
 
